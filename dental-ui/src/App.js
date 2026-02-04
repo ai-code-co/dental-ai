@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://dental-ai-d1jv.onrender.com";
 
 export default function App() {
   const [selectedFile, setSelectedFile] = useState(null);
